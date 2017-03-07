@@ -7,7 +7,9 @@ body {
 	background: #f1f2f4;
 	background-image: url('../img/bg/hazeev.jpg');
   background-size: cover;
+
 }
+
  h1.caption {
     font-family: 'Lobster', 'Comic Sans MS', cursive;
     text-align: center;
@@ -30,7 +32,7 @@ ul.top-menu {
   margin: 1em;
   padding-left: 0; /*убираем левый отступ, равный 40px*/
   min-width: 500px;
-}
+  }
 
 li.top-menu-item {
 
@@ -41,8 +43,14 @@ li.top-menu-item {
   background-color: #FFFFFF;
   border-radius: 50%;
 
+
 }
 
+li.top-menu-item .a {
+
+  display: block;
+
+}
 
 li.top-menu-item:hover{
 
@@ -168,41 +176,4 @@ div.noscript {
 	color: #FF0000;
 	border: 2px solid red;
 	border-radius: 5px;
-}
-
-div.button-plus {
-display: inline-block;
-text-align: center;
-vertical-align: middle;
-min-width: 30px;
-min-height: 30px;
-max-width: 30px;
-max-height: 30px;
-background-color: #9DE6B3;
-border-radius: 50%;
-align-content: center;
-
-}
-
-div.button-minus {
-display: inline-block;
-text-align: center;
-vertical-align: middle;
-min-width: 30px;
-min-height: 30px;
-max-width: 30px;
-max-height: 30px;
-background-color: #F59193;
-border-radius: 50%;
-align-content: center;
-
-.bgvideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -9999;
 }
