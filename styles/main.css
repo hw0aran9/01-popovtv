@@ -2,9 +2,10 @@
    font-family: 'Open Sans', sans-serif; /* Гарнитура шрифта */
    }
 
+
 body {
 	background: #f1f2f4;
-	background-image: url('../img/bg/iback.png');
+	background-image: url('../img/bg/hazeev.jpg');
   background-size: cover;
 }
  h1.caption {
@@ -34,12 +35,14 @@ ul.top-menu {
 li.top-menu-item {
 
   display: inline-block;
-  width: 70px;
+  width: 200px;
+  height: 200px;
   margin: 0px;
   background-color: #FFFFFF;
-  border-radius: 4px;
+  border-radius: 50%;
 
 }
+
 
 li.top-menu-item:hover{
 
@@ -52,7 +55,8 @@ li.top-menu-item:hover{
 li.top-menu-item-branch{
 
   display: inline-block;
-  min-width: 100px;
+  width: 100px;
+  height: 100px;
   margin: 0px;
   background-color: #FFFFFF;
   border-radius: 4px;
