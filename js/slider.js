@@ -1,4 +1,4 @@
- $(document).ready(function() {
+ $(function() {
  $(".slider").each(function() {
 
  var repeats = 5, // количество повторений прокрутки
@@ -21,7 +21,8 @@
  // add timeout
 
  if (repeat) {
- repeat = setInterval(function() {
+ repeat = setInterval
+ (function() {
  if (repeatCount >= repeats - 1) {
  window.clearInterval(repeat);
  }
@@ -53,10 +54,10 @@ function sliderJS(index, slider) { // slide
  }, 500);
 }
 
-$(document).on("click", ".slider .nav span", function(e) { // slider click navigate
+$(document).on("click", ".slider .nav span", function(e) 
+{ // slider click navigate
  e.preventDefault();
  var slider = $(this).closest(".slider"),
  index = $(this).data("slide");
-
  sliderJS(index, slider);
 });

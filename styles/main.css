@@ -85,85 +85,13 @@ span.link-down {
   font-family: "Open Sans";
 }
 
-ul.sub-menu {
-  visibility: hidden;
-  position: absolute;
-  /*top: 100%;*/
-  padding-left: 0;
-  width: 100%;
-  list-style: none;
-  margin: 0px;
-}
 
-li.sub-menu-item {
-  display: inline-block;
-  text-align: left;
-  min-width: 100px;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  background-color: #E9E9E9;
-  border-radius: 4px;
-}
 
-li.sub-menu-item:hover {
-
-  background-color: #C2C2C2;
- 
-}
-
-a {
-    color: #33567f;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a.inbutton {
-  color:#FFFFFF;
-  text-decoration: none;
-  vertical-align: top;
 }
 
 
-
-span.date {
-	margin-left: 50px;
-	color: #717070;
-	font-size: 50%;
-  vertical-align: middle;
 }
 
-span.counter {
-
-  vertical-align: middle;
-
-}
-
-div.quote {
-width: 50%;
-min-width: 500px;
-padding: 10px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 10px;
-text-align: justify;
-font-family: "Open Sans";
-font-size: 15px;
-background: #FFFFFF;
-border: 0px solid #B6B6B6;
-border-radius: 5px;
-
-}
-
-div.actions{
-	white-space: nowrap;
-	padding: 5px;
-	margin: 2px;
-	vertical-align: middle;
-	font-size: 150%;
-	font-weight: bold;
-	border: 0px solid black;
-	border-radius: 5px;
-  vertical-align: middle;
 }
 
 div.noscript {
