@@ -45,12 +45,14 @@ function sliderJS(index, slider) { // slide
  step = $(bl).width();
 
  $(slider)
- .find("span").removeClass("on")
+ .find("span")
+ .removeClass("on")
  .end()
- .find("span[data-slide=" + index + "]").addClass("on");
+ .find("span[data-slide="+index+"]")
+ .addClass("on");
 
  $(ul).animate({
- marginLeft: "-" + step * index
+ marginLeft: "-"+step*index
  }, 500);
 }
 
