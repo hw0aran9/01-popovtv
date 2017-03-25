@@ -5,7 +5,7 @@
  interval = 1, // интервал, сек
  repeat = true, // автопрокрут (true/false)
  slider = $(this),
- repeatCount = 5,
+ repeatCount = 500,
  elements = $(slider).find("li").length;
 
  $(slider)
@@ -33,7 +33,7 @@
  sliderJS(nextIndex, slider);
 
  repeatCount += 1;
- }, interval * 1000);
+ }, interval * 100);
  }
 
  });
