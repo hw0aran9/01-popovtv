@@ -39,6 +39,8 @@
  });
  });
 
+
+
 function sliderJS(index, slider) { // slide
  var ul = $(slider).find("ul"),
  bl = $(slider).find("li[data-slide=" + index + "]"),
